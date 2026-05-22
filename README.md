@@ -1,3 +1,7 @@
+免費香港中三F3及高中 F4-F6 DSE syllabus的補底notes，看完DSE有3無難度
+
+
+
 This project comes with absolutely no warranty and responsibility
 There may be any kinds of misinformation and wrong concept, take it with your own risk.
 Students should think and verify knowledge themselves rather than blindly accepting knownledge
