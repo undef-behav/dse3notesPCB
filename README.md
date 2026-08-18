@@ -14,9 +14,8 @@ Authors do not hold any responsibility if this project creates any negative impa
 
 本項目可能會不定時更新內容及系統
 
-因為頁面設計問題 如屏幕過小會令排版顯示出現問題。
-在手機上建議橫向顯示畫面，
-或在大屏幕上例如平板電腦或電腦上使用本系統。
+本程式介面設計極簡陋，請測試橫向或直向或各種不同大小的屏幕使用
+以找到你認為最舒適的方法使用
 
 GIthub Page 網頁版:
 https://undef-behav.github.io/dse3notesPCB/
@@ -32,12 +31,12 @@ https://undef-behav.github.io/dse3notesPCB/
 使用方法:
 
 先按左上角的accept license，
-此button一開始是(1,1,1) 分別代表已經載入的phy, chem, bio的筆記條目數量。
 按下accept license後才會載入筆記，
-載入成功後(1,1,1) 會變成 幾百，
-之後會出現ALL, 就是所有條目的標題列表。
+載入成功後accept license按鈕會變成search按鈕
+同時會出現ALL, 就是所有條目的標題列表。
 可以在最上方輸入要查的keyword 每次只可查找1個keyword 不要有空格space，
-然後會在左邊出現keyword的結果。
-右邊會出現3個column分別是phy, chem, bio 就這個keyword的搜尋結果的條目標題，
-輕按一下這個標題會在左下的地方顯示此條目及上下一個條目的內容，
-長按一下這個標題會在右下的地方顯示此條目及上下一個條目的內容。
+search後會在ALL旁邊出現剛才輸入的keyword
+下面有3個column分別是phy, chem, bio 條目標題，
+按下ALL旁邊出現的keyword會在這3個條目標題列表顯示該keyword的搜尋結果
+輕按一下這個列表的標題會在左下的地方顯示此條目及上下一個條目的內容，
+長按一下標題則會在右下的地方顯示此條目及上下一個條目的內容。
