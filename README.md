@@ -1,5 +1,6 @@
-免費香港中三F3及高中 F4-F6 DSE syllabus的補底notes，看完DSE有3無難度
-
+免費香港中三F3及高中 F4-F6 DSE syllabus的補底notes，
+本筆記只解釋最基本的內容，只能補底，不能用來考5或者以上的好成績
+本筆記不涵蓋整個DSE syllabus
 
 
 This project comes with absolutely no warranty and responsibility
@@ -8,7 +9,7 @@ Students should think and verify knowledge themselves rather than blindly accept
 Authors do not hold any responsibility if this project creates any negative impact
 
 同其他開源項目一樣，所有野都無任何保養及不負任何責任。
-本notes內容可以有錯 解說可能有錯的concept，
+本notes內容會有錯的地方 解說可能有錯的concept，
 請同學一定要自己小心求證, 同其他同學或者老師討論，
 及參考教科書 或者其他來源。
 
