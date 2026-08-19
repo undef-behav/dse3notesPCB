@@ -39,7 +39,7 @@ LmRBtn.addEventListener("click", LeftToRight);
 document.getElementById("top").appendChild(LmRBtn);
 
 let RMBtn = document.createElement('span');
-RMBtn .textContent ="顯示說明";
+RMBtn .textContent ="說明";
 RMBtn.className ='button';
 RMBtn.addEventListener("click", PushReadme);
 document.getElementById("top").appendChild(RMBtn);

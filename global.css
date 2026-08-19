@@ -3,12 +3,14 @@ html, body{
     height: 100%;
     width: 100%;
     margin: 0;
+    font-size: 1.2rem;
+    font-family: "Arial", "DFKai-SB", "Kaiti", "MingLiU", "serif";
 }
 
 #main{
     display: flex;
     flex-direction: column;
-    background: #ececc6;
+    background: #f5f3d5;
     height: 100%;
     width: 100%;
     margin: 0;
