@@ -31,13 +31,10 @@ https://undef-behav.github.io/dse3notesPCB/
 
 使用方法:
 
-先按左上角的accept license，
-按下accept license後才會載入筆記，
-載入成功後accept license按鈕會變成search按鈕
-同時會出現ALL, 就是所有條目的標題列表。
-可以在最上方輸入要查的keyword 每次只可查找1個keyword 不要有空格space，
+ALL是所有條目的標題列表。
+可以在最上方輸入要查的keyword單字 每次只可查找1個keyword 不要有空格space，
 search後會在ALL旁邊出現剛才輸入的keyword
 下面有3個column分別是phy, chem, bio 條目標題，
 按下ALL旁邊出現的keyword會在這3個條目標題列表顯示該keyword的搜尋結果
 輕按一下這個列表的標題會在左下的地方顯示此條目及上下一個條目的內容，
-長按一下標題則會在右下的地方顯示此條目及上下一個條目的內容。
+按下 左>>右 可以將顯示在左下的條目內容顯示在右下
