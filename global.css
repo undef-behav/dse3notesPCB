@@ -1,0 +1,85 @@
+html, body{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    background: #ececc6;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+#top{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 5%;
+
+}
+#middle{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 5%;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 40%;
+    width: 100%;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 75%;
+}
+
+.mframe{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 33%;
+    height: 100%;
+}
+
+#lframe{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 54%;
+    height: 100%
+}
+
+#rframe{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 45%;
+    height: 100%;
+}
+
+.button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.entry{
+    margin-left: 2%;
+    margin-right: 2%;
+}
