@@ -10,3 +10,8 @@ footerNode.addEventListener("click", ()=>{window.open("https://github.com/undef-
 
 
 document.getElementById("footer").appendChild(footerNode);
+
+let footerNodeA = document.createElement('p');
+footerNodeA.style.textAlign = 'center';
+footerNodeA.textContent ='Absolutely no warranty or liability，如果你想轉發，不可作不道德用途';
+document.getElementById("footer").appendChild(footerNodeA);

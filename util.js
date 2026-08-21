@@ -137,9 +137,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("phy", ...[phyIDS[0], phyIDS[1]]);
                     });
-                    idn.addEventListener("dragstart", ()=>{
-                        UpdateRight("phy", ...[phyIDS[0], phyIDS[1]])
-                    });
+                    //idn.addEventListener("dragstart", ()=>{UpdateRight("phy", ...[phyIDS[0], phyIDS[1]])});
                     phyNL.push(idn);
                     break
                 case (phyMax-1):
@@ -150,9 +148,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("phy", ...[phyIDS[phyMax-2], phyIDS[phyMax-1]]);
                     });
-                    idn.addEventListener("dragstart", ()=>{
-                        UpdateRight("phy", ...[phyIDS[phyMax-2], phyIDS[phyMax-1]])
-                    });
+                    //idn.addEventListener("dragstart", ()=>{UpdateRight("phy", ...[phyIDS[phyMax-2], phyIDS[phyMax-1]])});
                     phyNL.push(idn);
                     break
                 default:
@@ -163,9 +159,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("phy", ...[phyIDS[index-1], phyIDS[index], phyIDS[index+1]]);
                     });
-                    idn.addEventListener("dragstart", ()=>{
-                        UpdateRight("phy", ...[phyIDS[index-1], phyIDS[index], phyIDS[index+1]])
-                    });
+                    //idn.addEventListener("dragstart", ()=>{UpdateRight("phy", ...[phyIDS[index-1], phyIDS[index], phyIDS[index+1]])});
                     phyNL.push(idn);
                     
                     break
@@ -184,9 +178,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("chem", ...[chemIDS[0], chemIDS[1]]);
                     });
-                    idn.addEventListener("selectstart", ()=>{
-                        UpdateRight("chem", ...[chemIDS[0], chemIDS[1]])
-                    });
+                    //idn.addEventListener("selectstart", ()=>{UpdateRight("chem", ...[chemIDS[0], chemIDS[1]])});
                     chemNL.push(idn);
                     break
                 case (chemMax-1):
@@ -197,9 +189,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("chem", ...[chemIDS[chemMax-2], chemIDS[chemMax-1]]);
                     });
-                    idn.addEventListener("selectstart", ()=>{
-                        UpdateRight("chem", ...[chemIDS[chemMax-2], chemIDS[chemMax-1]])
-                    });
+                    //idn.addEventListener("selectstart", ()=>{UpdateRight("chem", ...[chemIDS[chemMax-2], chemIDS[chemMax-1]])});
                     chemNL.push(idn);
                     break
                 default:
@@ -210,9 +200,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("chem", ...[chemIDS[index-1], chemIDS[index], chemIDS[index+1]]);
                     });
-                    idn.addEventListener("selectstart", ()=>{
-                        UpdateRight("chem", ...[chemIDS[index-1], chemIDS[index], chemIDS[index+1]])
-                    });
+                    //idn.addEventListener("selectstart", ()=>{UpdateRight("chem", ...[chemIDS[index-1], chemIDS[index], chemIDS[index+1]])});
                     chemNL.push(idn);
                     
                     break
@@ -230,9 +218,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("bio", ...[bioIDS[0], bioIDS[1]]);
                     });
-                    idn.addEventListener("selectstart", ()=>{
-                        UpdateRight("bio", ...[bioIDS[0], bioIDS[1]])
-                    });
+                    //idn.addEventListener("selectstart", ()=>{UpdateRight("bio", ...[bioIDS[0], bioIDS[1]])});
                     bioNL.push(idn);
                     break
                 case (bioMax-1):
@@ -243,9 +229,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("bio", ...[bioIDS[bioMax-2], bioIDS[bioMax-1]]);
                     });
-                    idn.addEventListener("selectstart", ()=>{
-                        UpdateRight("bio", ...[bioIDS[bioMax-2], bioIDS[bioMax-1]])
-                    });
+                    //idn.addEventListener("selectstart", ()=>{UpdateRight("bio", ...[bioIDS[bioMax-2], bioIDS[bioMax-1]])});
                     bioNL.push(idn);
                     break
                 default:
@@ -256,9 +240,7 @@ function UpdateMenu(ResultID){
                     idn.addEventListener("click",()=>{
                         UpdateLeft("bio", ...[bioIDS[index-1], bioIDS[index], bioIDS[index+1]]);
                     });
-                    idn.addEventListener("selectstart", ()=>{
-                        UpdateRight("bio", ...[bioIDS[index-1], bioIDS[index], bioIDS[index+1]])
-                    });
+                    //idn.addEventListener("selectstart", ()=>{UpdateRight("bio", ...[bioIDS[index-1], bioIDS[index], bioIDS[index+1]])});
                     bioNL.push(idn);
                     
                     break
@@ -419,14 +401,18 @@ PushReadme();
 
 function speakLeft(){
     window.speechSynthesis.cancel()
-    let utterance = new SpeechSynthesisUtterance(...DisplayLT);
+    LS = "";
+    DisplayLT.forEach((item)=>{LS+=item; LS+="。。";});
+    let utterance = new SpeechSynthesisUtterance(LS);
     utterance.lang = 'zh-HK';
     speechSynthesis.speak(utterance);
 }
 
 function speakRight(){
     window.speechSynthesis.cancel()
-    let utterance = new SpeechSynthesisUtterance(...DisplayRT);
+    RS = "";
+    DisplayRT.forEach((item)=>{RS+=item; RS+="。。";});
+    let utterance = new SpeechSynthesisUtterance(RS);
     utterance.lang = 'zh-HK';
     speechSynthesis.speak(utterance);
 }
