@@ -1,3 +1,5 @@
+Absolutely no warranty or liability，如果你想轉發，不可作不道德用途
+
 免費香港中三F3及高中 F4-F6 DSE syllabus的補底notes，
 本筆記只解釋最基本的內容，只能補底，不能用來考5或者以上的好成績
 本筆記不涵蓋整個DSE syllabus
