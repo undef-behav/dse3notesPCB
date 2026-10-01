@@ -22,7 +22,8 @@ Authors do not hold any responsibility if this project creates any negative impa
 
 GIthub Page 網頁版:
 https://undef-behav.github.io/dse3notesPCB/
-https://https://dsefreenotessci.infinityfree.io/
+
+https://dsefreenotessci.infinityfree.io/
 
 本項目不是雞精筆記, 不是臨考試前臨急抱佛腳用，
 只是用來詳細地解說各種topic同concept。
